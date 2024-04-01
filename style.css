@@ -7,6 +7,8 @@ body {
     font-weight:200;
     font-style: normal;
     color: #05242d;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
     /*background: linear-gradient(#F3FFFF,#05242d, #F3FFFF);*/
 }
 
@@ -76,7 +78,7 @@ nav a:hover{
 
 .homepage{
     padding: 1em 3em 1em 3em;
-    background: linear-gradient(#F3FFFF,#05242d);
+    background: linear-gradient(#F3FFFF,#10365f);
     width: auto;
     margin: 0 auto; 
    /* background-image: url(handshake.jpeg); 
@@ -162,7 +164,7 @@ nav a:hover{
 
 .empresaus{
     padding: 1em 3em 1em 3em;
-    background: #05242d;
+    background: #10365f;
     color: #F3FFFF;
     width: auto;
     margin: 0 auto;    
@@ -173,9 +175,11 @@ nav a:hover{
     display: inline-block;
     text-align: center;
     width: auto;
-    margin: 5% 0 0 35.2%;
+    margin: 5% 0 0 32.99%;
     font-size: 30px;
-    background-color: #7f7f7f;
+    background-color: #F3FFFF;
+    color: #05242d;
+    font-weight: bold;
     padding: 20px;
     border-radius: 15px;
    
@@ -184,7 +188,7 @@ nav a:hover{
 .abwtitle{
     position: relative;
     display: table;
-    left: 5%;
+    left: 4.2%;
     padding: 5em 2em 1em 2em;
     text-transform: uppercase;
     font-size: 23px;
@@ -192,15 +196,16 @@ nav a:hover{
 
 .dropdownAbw {
     position: relative;
-    margin: 0 0 0 14%;
+    margin: 0 0 0 12.5%;
     display: inline-block;
+    padding: 0 0 3em 0;
   }
 
 .dropbtnAbw {
     text-align: center;
     position: relative;
     margin: 0% 0 0 10%;
-    border: 2px dotted white;
+    border: 2px solid white;
     background-color: #7f7f7f00;
     color: white;
     padding: 0.3em;
@@ -211,7 +216,8 @@ nav a:hover{
   }
 
   .dropbtnAbw:hover{
-    background-color: #7f7f7f;
+    background-color: #F3FFFF;
+    color: #05242d;
     transform: scale(1.1);
 }
 
@@ -220,9 +226,10 @@ nav a:hover{
     display: none;
     position: absolute;
     left: 40%; 
-    transform: translate(-45%, 0); 
-    background-color: #0769cb;
-    font-size: 15px;
+    transform: translate(-45%, 4%); 
+    background-color: #0769cb00;
+    font-weight: 600;
+    font-size: 16px;
     color: #F3FFFF;
     min-width: 450px;
     line-height: 1.5em;
@@ -244,7 +251,7 @@ nav a:hover{
     text-align: center;
     position: relative;
     display: inline-block;
-    left: 70%;
+    left: 73%;
     padding: 4em 2em 1em 2em;
     text-transform: uppercase;
     font-size: 23px;
@@ -252,15 +259,16 @@ nav a:hover{
 
 .dropdownhwf {
     position: relative;
-    margin: 0 0 0 79%;
+    margin: 0 0 0 81%;
     display: inline-block;
+    padding: 0 0 3em 0;
   }
 
 
   .ywntitle{
     text-align: center;
     position: relative;
-    right: 32%;
+    right: 34%;
     padding: 4em 2em 1em 2em;
     text-transform: uppercase;
     font-size: 23px;
@@ -268,15 +276,16 @@ nav a:hover{
 
 .dropdownywn {
     position: relative;
-    margin: 0 0 0 14%;
+    margin: 0 0 0 12%;
     display: inline-block;
+    padding: 0 0 3em 0;
   }
 
 .aswtitle{
     text-align: center;
     position: relative;
     display: inline-block;
-    left: 70%;
+    left: 73.5%;
     padding: 4em 2em 1em 2em;
     text-transform: uppercase;
     font-size: 23px;
@@ -284,7 +293,7 @@ nav a:hover{
 
 .dropdownasw {
     position: relative;
-    margin: 0 0 0 79%;
+    margin: 0 0 0 81.5%;
     display: inline-block;
     padding: 0 0 7em 0;
   }
@@ -314,7 +323,7 @@ nav a:hover{
 
 .freeus{
     padding: 1em 3em 1em 3em;
-    background: #05242d;
+    background: #10365f;
     color: #F3FFFF;
     width: auto;
     margin: 0 auto;    
@@ -325,9 +334,11 @@ nav a:hover{
     display: inline-block;
     text-align: center;
     width: auto;
-    margin: 5% 0 0 35.2%;
+    margin: 5% 0 0 30.567%;
     font-size: 30px;
-    background-color: #7f7f7f;
+    background-color: #F3FFFF;
+    color: #05242d;
+    font-weight: bold;
     padding: 20px;
     border-radius: 15px;
 }
@@ -345,14 +356,15 @@ nav a:hover{
     position: relative;
     margin: 0 0 0 14%;
     display: inline-block;
-    padding: 0 0 7em 0;
+    padding: 0 0 3em 0;
+    
   }
 
   .waiiybtitle{
     text-align: center;
     position: relative;
     display: inline-block;
-    left: 70%;
+    left: 72%;
     padding: 4em 2em 1em 2em;
     text-transform: uppercase;
     font-size: 23px;
@@ -362,7 +374,8 @@ nav a:hover{
     position: relative;
     margin: 0 0 0 80%;
     display: inline-block;
-    padding: 0 0 7em 0;
+    padding: 0 0 3em 0;
+    
   }
   .pincdtyatitle{
     text-align: center;
@@ -457,9 +470,34 @@ form label, legend{
     transform: scale(1.1);
     
 }
+.gobackcomp{
+    width: auto;
+    height: auto;
+}
+.gobackcomp h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 3em;
+}
 
+.gobackcomp p{
+    text-align: center;
+    padding: 0 0 10em 0;
+    font-size: 20px;
 
+}
 
+.gobackcomp a{
+    text-decoration: none;
+    color: #0769cb;
+    transition: 0.5 all;
+}
+
+.gobackcomp a:hover{
+    color: #05242d;
+    font-style: italic;
+    
+}
 
 
 

@@ -1,15 +1,15 @@
 <?php
 
-    $nameUsComp = $_POST['nameUsComp'];
-    $email = $_POST["mailComp"];
-    $message = $_POST["cellComp"];
-    $message = $_POST["nameComp"];
-    $message = $_POST["description"];
+    $nameUsFree = $_POST['nameUsfree'];
+    $email = $_POST["mailFree"];
+    $message = $_POST["cellFree"];
+    $message = $_POST["cvFree"];
+    $message = $_POST["posicion"];
     $message = $_POST["radioemail"];
     $message = $_POST["radiophone"];
     $message = $_POST["radiowhats"];
 
-    $mailheader = "From:".$email."<".$nameUsComp.">\r\n"
+    $mailheader = "From:".$email."<".$nameUsFree.">\r\n"
 
     $recipient = "recruitment@bestworkers.com.mx";
 
