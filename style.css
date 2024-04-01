@@ -1,0 +1,521 @@
+/* CSS code here */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight:200;
+    font-style: normal;
+    color: #05242d;
+    /*background: linear-gradient(#F3FFFF,#05242d, #F3FFFF);*/
+}
+
+header {
+    background-color: #F3FFFF;
+    padding: 10px;
+}
+
+
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.name-logo {
+    margin: 0 0 0 1%;
+    font-size: 31px;
+    font-weight: bold;
+}
+
+nav{
+    position: relative;
+    left: 22%;
+    font-size: 16px;
+    padding: 3em;
+} 
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 29px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #05242d;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0769cb;
+    font-size: 18px;
+    transition: 0.2s all;
+    cursor: pointer
+
+    
+}
+.logo-image img {
+    position: relative;
+    left: 45%;
+    width: 115px;
+    height: auto;
+   
+    
+}
+
+.homepage{
+    padding: 1em 3em 1em 3em;
+    background: linear-gradient(#F3FFFF,#05242d);
+    width: auto;
+    margin: 0 auto; 
+   /* background-image: url(handshake.jpeg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    background-size: 40%; */
+    
+} 
+
+
+.titulo-free{
+    position: relative;
+    font-size: 30px;
+    margin: 2.5% 0 0 70%;
+    font-weight:300;
+    
+
+}
+
+.botonfree{
+    position: relative;
+    margin: 2% 0 0 80%;
+    padding: 10px 10px 10px 10px;
+    background-color: #05242d;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.botonfree:hover{
+    background-color: #0769cb;
+    transform: scale(1.1);
+}
+
+.botoninteriorcomp{
+    font-size: 19px;
+    text-decoration: none;
+    color: #05242d;
+ }
+
+.handshake{
+    width: 550px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 32.5%;
+    /*z-index: -1;*/
+    rotate: -25deg;
+}
+
+.botoninteriorfree{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+ }
+
+.titulo-comp{
+    position: relative;
+    color: #F3FFFF;
+    font-size: 30px;
+    margin: 35% 0 0 0;
+    font-weight:300;
+
+}
+
+.botonempresa{
+    position: relative;
+    margin: 2% 0 0 8.7%;
+    padding: 10px 10px 10px 10px;
+    background-color: #F3FFFF;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.botonempresa:hover{
+    background-color: #0769cb;
+    transform: scale(1.1);
+}
+
+.empresaus{
+    padding: 1em 3em 1em 3em;
+    background: #05242d;
+    color: #F3FFFF;
+    width: auto;
+    margin: 0 auto;    
+}
+
+.empresaus .subtitulos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    margin: 5% 0 0 35.2%;
+    font-size: 30px;
+    background-color: #7f7f7f;
+    padding: 20px;
+    border-radius: 15px;
+   
+}
+
+.abwtitle{
+    position: relative;
+    display: table;
+    left: 5%;
+    padding: 5em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownAbw {
+    position: relative;
+    margin: 0 0 0 14%;
+    display: inline-block;
+  }
+
+.dropbtnAbw {
+    text-align: center;
+    position: relative;
+    margin: 0% 0 0 10%;
+    border: 2px dotted white;
+    background-color: #7f7f7f00;
+    color: white;
+    padding: 0.3em;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  .dropbtnAbw:hover{
+    background-color: #7f7f7f;
+    transform: scale(1.1);
+}
+
+  .dropdown-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 40%; 
+    transform: translate(-45%, 0); 
+    background-color: #0769cb;
+    font-size: 15px;
+    color: #F3FFFF;
+    min-width: 450px;
+    line-height: 1.5em;
+    border-radius: 15px;
+    /*box-shadow: 5px 0px 5px 5px #020f13;*/
+    padding: 10px;
+    z-index: 1;
+    transition: 0.5s all;
+  }
+
+  /*.dropdown-content-abw :first-of-type*/
+
+  .show {
+    display:block;
+    transition: 0.5s all;
+  }
+
+.hwftitle{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    left: 70%;
+    padding: 4em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownhwf {
+    position: relative;
+    margin: 0 0 0 79%;
+    display: inline-block;
+  }
+
+
+  .ywntitle{
+    text-align: center;
+    position: relative;
+    right: 32%;
+    padding: 4em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownywn {
+    position: relative;
+    margin: 0 0 0 14%;
+    display: inline-block;
+  }
+
+.aswtitle{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    left: 70%;
+    padding: 4em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownasw {
+    position: relative;
+    margin: 0 0 0 79%;
+    display: inline-block;
+    padding: 0 0 7em 0;
+  }
+
+.botonempresamain{
+    position: relative;
+    left: 46.19%;
+    padding: 10px 10px 10px 10px;
+    background-color: #F3FFFF;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.botonempresamain:hover{
+    background-color: #0769cb;
+    transform: scale(1.1);
+}
+
+.botonintempmain{
+    font-size: 19px;
+    text-decoration: none;
+    color: #05242d;
+
+}
+
+.freeus{
+    padding: 1em 3em 1em 3em;
+    background: #05242d;
+    color: #F3FFFF;
+    width: auto;
+    margin: 0 auto;    
+}
+
+.freeus .subtitulos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    margin: 5% 0 0 35.2%;
+    font-size: 30px;
+    background-color: #7f7f7f;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.wsyjtitle{
+    text-align: center;
+    position: relative;
+    right: 32%;
+    padding: 4em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownWsyj {
+    position: relative;
+    margin: 0 0 0 14%;
+    display: inline-block;
+    padding: 0 0 7em 0;
+  }
+
+  .waiiybtitle{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    left: 70%;
+    padding: 4em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownWaiiyb{
+    position: relative;
+    margin: 0 0 0 80%;
+    display: inline-block;
+    padding: 0 0 7em 0;
+  }
+  .pincdtyatitle{
+    text-align: center;
+    position: relative;
+    right: 32%;
+    padding: 4em 2em 1em 2em;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+.dropdownPincdtya{
+    position: relative;
+    margin: 0 0 0 14%;
+    display: inline-block;
+    padding: 0 0 7em 0;
+}
+
+.botonfreemain{
+    position: relative;
+    left: 46.19%;
+    margin-bottom: 4em;
+    padding: 10px 10px 10px 10px;
+    background-color: #F3FFFF;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.botonfreemain:hover{
+    background-color: #0769cb;
+    transform: scale(1.1);
+}
+
+.botonintfreemain{
+    font-size: 19px;
+    text-decoration: none;
+    color: #05242d;
+
+}
+
+/* Estilo para los formularios*/
+
+.formcomp{
+    padding: 2em 3em 0 2em;
+    color: #05242d;
+    font-size: 23px;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+form{
+    margin: 40px 0;
+    padding: 1em 3em 1em 3em;
+    line-height: 1em;
+}
+
+form label, legend{
+    display:block;
+    font-size: 20px;
+    color: #05242d;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: darkslategrey;
+    border:none;
+    border-radius: 20px;
+    transition: 0.5s all;
+    cursor: pointer;
+
+}
+
+.enviar:hover{
+    background-color: #0769cb;
+    transform: scale(1.1);
+    
+}
+
+
+
+
+
+
+footer {
+    background-color: #F3FFFF;
+    color: #05242d;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    width: 130px;
+    height: auto;
+}
+
+.infoFirst{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: inline-block;
+    text-align: right;
+    padding: 1em ;
+    line-height: 2em;
+
+}
+
+@media screen and (max-width: 520px) {
+
+    .logo-image{
+        position: relative;
+        right: 68%;
+        z-index: 2;
+    }
+
+    .name-logo{
+        z-index: 3;
+    }
+
+    .logo-image img{
+        width: 95px;
+    }
+  
+    .banner, .homepage{
+        width: auto;
+    }
+   .handshake{
+        position: relative;
+
+        width: 150px;
+   }
+    
+
+
+
+
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Workes</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <div class="name-logo">Best Workers</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#company">Company</a></li>
+                    <li><a href="#freelancer">Freelancer</a></li>
+                    <li><a href="contacto-empresas.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="logo-image">
+                <img src="image-2.png" alt="Company Logo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="formcomp">Hello! Please leave your contact information,<br> we will contact you as soon as possible. </h1>
+        <form action="enviar_email.php" method="post">
+            <label for="nameUsfree">Name</label>
+            <input type="text" id="nameUsfree" class="input-padron" required>
+
+            <label for="mailFree">Email</label>
+            <input type="email" id="mailFree" class="input-padron" required placeholder="email@domain.com">
+
+            <label for="cellFree">Phone Number</label>
+            <input type="tel" id="cellFree" class="input-padron" required placeholder="(xx)xxxx xxxx">
+
+            <label for="cvFree">Resume</label>
+            <input type="file" id="cvFree" class="input-padron" required>
+
+            <label for="poscion">Possisions you are looking for:</label>
+            <textarea cols="70" rows="10" id="posicion" class="input-padron"></textarea>
+
+            <fieldset>
+                <legend>How would you like us to contact you?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radioemail">Email</label>
+                
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radiophone">Phone</label>
+                
+
+                <label for="radio-whats"><input type="radio" name="contacto" value="whatsapp" id="radiowhats" checked>Whatsapp</label>
+                
+
+            </fieldset>
+
+            <input type="submit" value="Send Form" class="enviar">
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="image-2.png" alt="Company Logo">
+        </div>
+        <div class="contact-info">
+            <p> <span class="infoFirst">Email:</span>recruitment@bestworkers.com.mx</p>
+            <p>  <span class="infoFirst">Phone:</span>(469) 591-7075</p>
+        </div>
+    </footer>
+
+    <script src="bestworkers.js"></script>
+</body>
+</html>
