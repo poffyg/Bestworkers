@@ -1,5 +1,21 @@
 <?php
 
+    require 'src/PHPMailer.php';
+    require 'src/Exception.php';
+
+    use PHPMailer\PHPMailer\PHPMailer;
+
+   
+    // Configure the PHPMailer instance
+    $mail-›isSMTP();
+    $mail->Host = 'live.smtp.mailtrap.io';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'api';
+    $mail->Password = 'b266a7809fc2bffce58176d07034c8ae';
+    $mail->SMTPSecure = PHPMailer:: ENCRYPTION_STARTTLS;
+    $mail->Port = 587;
+    
+
     $nameUsComp = $_POST['nameUsComp'];
     $email = $_POST["mailComp"];
     $message = $_POST["cellComp"];
@@ -11,7 +27,10 @@
 
     $mailheader = "From:".$email."<".$nameUsComp.">\r\n"
 
-    $recipient = "recruitment@bestworkers.com.mx";
+    $recipient = "bravourb2000@gmail.com";
+
+    $mailer = new PHPMailer();
+    var_dump($mailer)
 
     mail($recipient, $subject, $message, $mailheader);
     or die("Error!");
