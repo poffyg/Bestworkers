@@ -88,3 +88,8 @@
     ';
   
 ?>
+
+<?php
+// Incluir el formulario HTML
+include 'contacto-empresas.html';
+?>

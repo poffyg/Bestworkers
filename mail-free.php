@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Configurar el remitente y destinatario
         $mail->setFrom($email, $nombre);
-        $mail->addAddress('bravourb2000@gmail.com');
+        $mail->addAddress('recruitment@bestworkers.com.mx');
 
         // Contenido del correo electrónico
         $mail->isHTML(true);
@@ -88,12 +88,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <script src="bestworkers.js"></script>
         </body>
         </html>';
-    } 
+    } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
 }
-  
-    ?>
-
-<?php
-// Incluir el formulario HTML
-include 'contacto-freelancers.html';
 ?>
+ 
+
+ 
